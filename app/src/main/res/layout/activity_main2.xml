@@ -37,7 +37,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginRight="20dp"
         android:ems="10"
-        android:hint="Email Address"
+        android:hint="Website"
         android:inputType="textEmailAddress" />
 
     <EditText
