@@ -21,7 +21,8 @@ public class MainActivity extends AppCompatActivity {
         BTNcontact.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent= new Intent()
+                Intent intent= new Intent(MainActivity.this, com.example.contacts.Main2Activity.class);
+                startActivity(intent);
             }
         });
     }
