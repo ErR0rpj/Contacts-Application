@@ -18,6 +18,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        BTNcontact= findViewById(R.id.BTNcontact);
+        TVcontact= findViewById(R.id.TVcontact);
+
         BTNcontact.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
